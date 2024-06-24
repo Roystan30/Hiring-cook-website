@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire a Cook</title>
+    <link rel="stylesheet" href="hiring.css">
+</head>
+<body>
+    <header>
+        <h1>Hire a Cook</h1>
+    </header>
+    <main>
+        <section id="userSection">
+            <h2>Users</h2>
+            <form id="userForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <button type="submit">Login</button>
+            </form>
+            <div id="jobRequestForm" style="display: none;">
+                <h3>Post a Job Request</h3>
+                <form id="postJobForm">
+                    <textarea id="jobDescription" placeholder="Job Description" required></textarea>
+                    <button type="submit">Post Request</button>
+                </form>
+            </div>
+        </section>
+        <section id="cookSection">
+            <h2>Cooks</h2>
+            <div id="cooksList"></div>
+        </section>
+    </main>
+
+    <script src="hiring.js"></script>
+</body>
+</html>
