@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Hiring Cooks</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Hiring Cooks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register">Register as Cook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content text-white text-center">
+          <h2>Join Us as a Cook!</h2>
+          <p>Fill out the form below to register.</p>
+          <form id="cookForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
+            </div>
+            <button type="submit" class="btn btn-success">Register</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Hiring Cooks. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
